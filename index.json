@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "themes": [
+    {
+      "id": "songloft.neon-night",
+      "name": "Neon Night",
+      "version": "1.0.0",
+      "author": "Songloft",
+      "description": "A dark theme with purple and blue neon accents",
+      "url": "themes/neon-night/theme.songloft-theme",
+      "sha256": "610c5fc4e675835f633d4689e87784ddd1ae8a981f8cb53529119f02a48fef58"
+    },
+    {
+      "id": "songloft.sakura",
+      "name": "Sakura",
+      "version": "1.0.0",
+      "author": "Songloft",
+      "description": "A warm cherry-blossom theme with pink accents",
+      "url": "themes/sakura/theme.songloft-theme",
+      "sha256": "2801cc4547e3e914b12c83d16201ba4810768ea3dbcac7427ec33b47673bead6"
+    }
+  ]
+}
