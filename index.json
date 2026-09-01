@@ -2,6 +2,15 @@
   "version": 1,
   "themes": [
     {
+      "id": "songloft.liquid-glass",
+      "name": "Liquid Glass",
+      "version": "1.0.0",
+      "author": "Songloft",
+      "description": "A translucent glass theme with star-blue accents — pairs with the Lynx Liquid Glass surfaces",
+      "url": "themes/liquid-glass/theme.songloft-theme",
+      "sha256": "5eb6a61a088aa8505412a8e556da7617a3a1d1e7b038bb8eebde6123d106a95d"
+    },
+    {
       "id": "songloft.neon-night",
       "name": "Neon Night",
       "version": "1.0.0",

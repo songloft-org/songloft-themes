@@ -12,6 +12,7 @@
 
 | 主题 | 作者 | 说明 |
 |------|------|------|
+| Liquid Glass | Songloft | 半透玻璃质感、星蓝点缀（配 Lynx Liquid Glass 表面） |
 | Neon Night | Songloft | 紫蓝色霓虹风格暗色主题 |
 | Sakura | Songloft | 粉色樱花暖色主题 |
 
@@ -53,12 +54,14 @@
   "light": {
     "seedColor": "#RRGGBB",
     "backgroundColor": "#RRGGBB",
-    "surfaceColor": "#RRGGBB"
+    "surfaceColor": "#RRGGBB",
+    "glassColor": "#RRGGBB"
   },
   "dark": {
     "seedColor": "#RRGGBB",
     "backgroundColor": "#RRGGBB",
-    "surfaceColor": "#RRGGBB"
+    "surfaceColor": "#RRGGBB",
+    "glassColor": "#RRGGBB"
   },
   "playerGradient": ["#RRGGBB", "#RRGGBB"],
   "cardRadius": 16,
@@ -82,6 +85,7 @@
 | `seedColor` | 是（如有 light/dark 节） | Material 3 种子色，用于生成完整调色板 |
 | `backgroundColor` | 否 | 覆盖背景色 |
 | `surfaceColor` | 否 | 覆盖表面色 |
+| `glassColor` | 否 | 玻璃装饰色（Lynx 液态玻璃 sheen），独立于 seedColor；缺省回落星蓝基线 |
 | `playerGradient` | 否 | 全屏播放器渐变色，2 个十六进制颜色 |
 | `cardRadius` | 否 | 卡片圆角半径（0-100） |
 | `controlRadius` | 否 | 控件圆角半径（0-100） |
@@ -97,6 +101,7 @@ Community theme packs for [Songloft](https://github.com/songloft-org/songloft) m
 
 | Theme | Author | Description |
 |-------|--------|-------------|
+| Liquid Glass | Songloft | A translucent glass theme with star-blue accents — pairs with the Lynx Liquid Glass surfaces |
 | Neon Night | Songloft | A dark theme with purple and blue neon accents |
 | Sakura | Songloft | A warm cherry-blossom theme with pink accents |
 
@@ -138,12 +143,14 @@ See the [Theme Pack Development Guide](https://songloft.hanxi.cc/en/theme-pack-g
   "light": {
     "seedColor": "#RRGGBB",
     "backgroundColor": "#RRGGBB",
-    "surfaceColor": "#RRGGBB"
+    "surfaceColor": "#RRGGBB",
+    "glassColor": "#RRGGBB"
   },
   "dark": {
     "seedColor": "#RRGGBB",
     "backgroundColor": "#RRGGBB",
-    "surfaceColor": "#RRGGBB"
+    "surfaceColor": "#RRGGBB",
+    "glassColor": "#RRGGBB"
   },
   "playerGradient": ["#RRGGBB", "#RRGGBB"],
   "cardRadius": 16,
@@ -167,6 +174,7 @@ See the [Theme Pack Development Guide](https://songloft.hanxi.cc/en/theme-pack-g
 | `seedColor` | Yes (if light/dark present) | M3 seed color for palette generation |
 | `backgroundColor` | No | Override background color |
 | `surfaceColor` | No | Override surface color |
+| `glassColor` | No | Glass decorative tint (Lynx Liquid Glass sheen), independent of seedColor; falls back to star-blue baseline when absent |
 | `playerGradient` | No | Array of 2 hex colors for player gradient |
 | `cardRadius` | No | Border radius for cards (0-100) |
 | `controlRadius` | No | Border radius for controls (0-100) |

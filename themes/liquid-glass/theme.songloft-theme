@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "songloft.liquid-glass",
+  "name": "Liquid Glass",
+  "version": "1.0.0",
+  "author": "Songloft",
+  "description": "A translucent glass theme with star-blue accents — pairs with the Lynx Liquid Glass surfaces",
+  "light": {
+    "seedColor": "#2196F3",
+    "backgroundColor": "#F5F7FA",
+    "surfaceColor": "#FFFFFF",
+    "glassColor": "#3BAEEF"
+  },
+  "dark": {
+    "seedColor": "#4FC3F7",
+    "backgroundColor": "#0F1419",
+    "surfaceColor": "#1A1F26",
+    "glassColor": "#5BC0F5"
+  },
+  "playerGradient": ["#1565C0", "#0D47A1"],
+  "cardRadius": 20,
+  "controlRadius": 12,
+  "navigationRadius": 12
+}
