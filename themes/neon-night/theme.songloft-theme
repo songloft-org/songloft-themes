@@ -2,21 +2,24 @@
   "schemaVersion": 1,
   "id": "songloft.neon-night",
   "name": "Neon Night",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Songloft",
   "description": "A dark theme with purple and blue neon accents",
   "light": {
     "seedColor": "#6750A4",
     "backgroundColor": "#FFF7FF",
-    "surfaceColor": "#FFFFFF"
+    "surfaceColor": "#FFFFFF",
+    "glassColor": "#9C7CF4"
   },
   "dark": {
     "seedColor": "#D0BCFF",
     "backgroundColor": "#141218",
-    "surfaceColor": "#211F26"
+    "surfaceColor": "#211F26",
+    "glassColor": "#B39DDB"
   },
   "playerGradient": ["#4A148C", "#1A237E"],
   "cardRadius": 16,
   "controlRadius": 20,
-  "navigationRadius": 18
+  "navigationRadius": 18,
+  "navigationStyle": "standard"
 }

@@ -4,29 +4,29 @@
     {
       "id": "songloft.liquid-glass",
       "name": "Liquid Glass",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "Songloft",
       "description": "A translucent glass theme with star-blue accents — pairs with the Lynx Liquid Glass surfaces",
       "url": "themes/liquid-glass/theme.songloft-theme",
-      "sha256": "5eb6a61a088aa8505412a8e556da7617a3a1d1e7b038bb8eebde6123d106a95d"
+      "sha256": "6bf4857213b418f9418dc310b4ed8ce9438b5d0376a1c2962c36e265984410d1"
     },
     {
       "id": "songloft.neon-night",
       "name": "Neon Night",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "Songloft",
       "description": "A dark theme with purple and blue neon accents",
       "url": "themes/neon-night/theme.songloft-theme",
-      "sha256": "610c5fc4e675835f633d4689e87784ddd1ae8a981f8cb53529119f02a48fef58"
+      "sha256": "048e3957a30fc1d24826abd0d087c9a842ddeaa62df6728636060c36269fe385"
     },
     {
       "id": "songloft.sakura",
       "name": "Sakura",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "Songloft",
       "description": "A warm cherry-blossom theme with pink accents",
       "url": "themes/sakura/theme.songloft-theme",
-      "sha256": "2801cc4547e3e914b12c83d16201ba4810768ea3dbcac7427ec33b47673bead6"
+      "sha256": "50fa27f374f467e74668d9ca0b80d82af88bfb509b854ad302a8afaa5c134cc6"
     }
   ]
 }

@@ -2,21 +2,24 @@
   "schemaVersion": 1,
   "id": "songloft.sakura",
   "name": "Sakura",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Songloft",
   "description": "A warm cherry-blossom theme with pink accents",
   "light": {
     "seedColor": "#D81B60",
     "backgroundColor": "#FFF0F5",
-    "surfaceColor": "#FFFFFF"
+    "surfaceColor": "#FFFFFF",
+    "glassColor": "#F06292"
   },
   "dark": {
     "seedColor": "#F48FB1",
     "backgroundColor": "#1A0A10",
-    "surfaceColor": "#261418"
+    "surfaceColor": "#261418",
+    "glassColor": "#F48FB1"
   },
   "playerGradient": ["#880E4F", "#4A148C"],
   "cardRadius": 14,
   "controlRadius": 16,
-  "navigationRadius": 14
+  "navigationRadius": 14,
+  "navigationStyle": "standard"
 }

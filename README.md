@@ -66,7 +66,8 @@
   "playerGradient": ["#RRGGBB", "#RRGGBB"],
   "cardRadius": 16,
   "controlRadius": 20,
-  "navigationRadius": 18
+  "navigationRadius": 18,
+  "navigationStyle": "standard"
 }
 ```
 
@@ -90,6 +91,7 @@
 | `cardRadius` | 否 | 卡片圆角半径（0-100） |
 | `controlRadius` | 否 | 控件圆角半径（0-100） |
 | `navigationRadius` | 否 | 导航指示器圆角半径（0-100） |
+| `navigationStyle` | 否 | 导航栏样式：`standard`（默认 Material）或 `capsule`（Lynx 浮动胶囊） |
 
 ---
 
@@ -155,7 +157,8 @@ See the [Theme Pack Development Guide](https://songloft.hanxi.cc/en/theme-pack-g
   "playerGradient": ["#RRGGBB", "#RRGGBB"],
   "cardRadius": 16,
   "controlRadius": 20,
-  "navigationRadius": 18
+  "navigationRadius": 18,
+  "navigationStyle": "standard"
 }
 ```
 
@@ -179,6 +182,7 @@ See the [Theme Pack Development Guide](https://songloft.hanxi.cc/en/theme-pack-g
 | `cardRadius` | No | Border radius for cards (0-100) |
 | `controlRadius` | No | Border radius for controls (0-100) |
 | `navigationRadius` | No | Border radius for navigation (0-100) |
+| `navigationStyle` | No | Navigation bar style: `standard` (default Material) or `capsule` (Lynx floating capsule) |
 
 ## License
 
